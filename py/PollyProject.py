@@ -2,7 +2,6 @@ import tkinter as tk
 import threading
 import speech_recognition as sr
 import time
-import pyttsx3
 from openai import OpenAI
 import sys
 import random
