@@ -2,8 +2,7 @@
 
 class Assistant:
 
-
-    def decision_tree(code):
+    def decision_tree(self, code):
         if(code == '[tv_on]'):
             print("TV IS TURNED ON")
         elif(code == '[fan_on]'):
