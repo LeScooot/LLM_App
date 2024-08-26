@@ -27,5 +27,5 @@ class Speaker:
             while pygame.mixer.music.get_busy():
                 pygame.time.Clock().tick(10)
         else:
-            print("Could not stream audio from Amazon Polly.")
+            print("Could not stream audio")
 
